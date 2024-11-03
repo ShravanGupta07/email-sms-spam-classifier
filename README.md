@@ -38,6 +38,24 @@ nltk.download('punkt')
 Ensure that vectorizer.pkl and model.pkl files are in the project directory. 
 These files are essential for TF-IDF transformation and spam classification.
 
+🛠️ **Model and Vectorizer Generation**
+
+Before running the Streamlit application, you need to generate the model.pkl and vectorizer.pkl files. 
+
+**Follow these steps:**
+
+**Run the Jupyter Notebook:**
+
+Locate the provided Jupyter notebook in the project directory.
+
+Execute all the cells in the notebook. This will train the spam classification model and save the necessary files.
+
+**Generated Files:**
+
+After running the notebook, you will find model.pkl and vectorizer.pkl in the same directory.
+
+Ensure these files are in the project directory, as they are essential for the TF-IDF transformation and spam classification in the Streamlit application.
+
 ▶️ **Usage**
 
 **Run the Streamlit app:**
